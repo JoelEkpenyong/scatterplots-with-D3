@@ -1,0 +1,27 @@
+svg {
+	margin: 0 auto;
+	display: block;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+g.tick{
+  opacity: .5;
+  color: #333;
+  stroke-dasharray: 5, 10;
+}
+
+.label{
+  font-size: 1.1em;
+  color: #333;
+}
+
+.graph-heading{
+  font-size: 2em;
+}
